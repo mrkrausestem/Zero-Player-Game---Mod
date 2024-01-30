@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847A06AB2B6934EA00BE95C6 /* Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A06A82B6934EA00BE95C6 /* Monsters.swift */; };
+		847A06AC2B6934EA00BE95C6 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A06A92B6934EA00BE95C6 /* Helpers.swift */; };
+		847A06AD2B6934EA00BE95C6 /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A06AA2B6934EA00BE95C6 /* Heroes.swift */; };
 		8491E91A2B6933F200AC00CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491E9192B6933F200AC00CA /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		847A06A82B6934EA00BE95C6 /* Monsters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monsters.swift; sourceTree = "<group>"; };
+		847A06A92B6934EA00BE95C6 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		847A06AA2B6934EA00BE95C6 /* Heroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
 		8491E9162B6933F200AC00CA /* Zero Player Game - Mod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Zero Player Game - Mod"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8491E9192B6933F200AC00CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +63,9 @@
 		8491E9182B6933F200AC00CA /* Zero Player Game - Mod */ = {
 			isa = PBXGroup;
 			children = (
+				847A06A92B6934EA00BE95C6 /* Helpers.swift */,
+				847A06AA2B6934EA00BE95C6 /* Heroes.swift */,
+				847A06A82B6934EA00BE95C6 /* Monsters.swift */,
 				8491E9192B6933F200AC00CA /* main.swift */,
 			);
 			path = "Zero Player Game - Mod";
@@ -119,6 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847A06AB2B6934EA00BE95C6 /* Monsters.swift in Sources */,
+				847A06AD2B6934EA00BE95C6 /* Heroes.swift in Sources */,
+				847A06AC2B6934EA00BE95C6 /* Helpers.swift in Sources */,
 				8491E91A2B6933F200AC00CA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
